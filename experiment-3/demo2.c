@@ -21,6 +21,7 @@ void main(){
 	{
         	printf("暂停子进程信息 pid=%d,pid1=%d,my pid=%d,my ppid=%d,my gpid=%d\n",pid,pid1,getpid(),getppid(),getgid());
 		sleep(5); //阻塞5秒
+		printf("子进程结束阻塞！\n");
 		exit(0);
 	}
        return;
